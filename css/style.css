@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+  font-style: normal;
+  color: #40514E;
+
+}
+
+.top_container {
+  background-color: #f8f3d4;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+#profile-pic {
+  width: 12.5%;
+}
+
+#skill1-pic{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+#skill2-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+h1 {
+  font-size: 562.5%;
+  margin: 50px  auto  0 auto;
+  font-family: 'Sacramento';
+  color: #00B8A9;
+
+
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  color: #00B8A9;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  color: #F6416C;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+
+a {
+  font-family: "Montserrat" sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #ffef8f;
+}
+
+a:hover {
+  color:#f8f3d4;
+}
+
+.copyright {
+  color:#f8f3d4;
+  font-size: 0.75rem;
+  padding: 20px 0;
+
+}
+.middle_container {
+  padding: 100px 0;
+  background-color: #f8f3d4;
+}
+
+.bottom_container {
+
+background-color: #F6416C;
+padding: 50px;
+
+}
+
+.top_cloud {
+  position: absolute;
+  right: 80px;
+  top : 20px;
+  width: 200px;
+
+}
+
+.bottom_cloud {
+  position: absolute;
+  width: 200px;
+}
+
+.land {
+  margin-top: 100px;
+}
+
+.footer-link {
+
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a.button{
+ display:inline-block;
+ padding:0.3em 1.2em;
+ margin:0 0.1em 0.1em 0;
+ border:0.16em solid #FFFFFF;
+ border-radius:2em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#000000;
+ /*text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);*/
+ text-align:center;
+ transition: all 0.2s;
+}
+a.button:hover{
+ border-color: #000000;
+}
